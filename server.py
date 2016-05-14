@@ -37,7 +37,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     user_agent = request.headers.get('User-Agent')
-    return u'<p>你的浏览器是 %s! 啊哈哈</p>' % user_agent
+    return u'<p>我是王利，英文名是glrh11，欢迎交流</p><p>你的浏览器是 %s! 啊哈哈</p>' % user_agent
 
 # 定义私人空间
 
