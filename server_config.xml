@@ -3,7 +3,7 @@
 	<pythonpath>/var/www/nginx-default/flask/</pythonpath>
 	<module>server</module>
 	<callable>app</callable>
-	<socket>127.0.0.1</socket>
+	<socket>127.0.0.1:8000</socket>
 
 	<master/>
 
