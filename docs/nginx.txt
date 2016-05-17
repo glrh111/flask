@@ -29,7 +29,16 @@ uwsgi -x test_config.xml
 
 
 
+flask-script
 
 flask-bootstrap
 flask-moment
 flask-wtf
+
+flask-sqlalchemy
+
+flask-migrate Êý¾Ý¿âÇ¨ÒÆ
+
+flask-mail
+
+
