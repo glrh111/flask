@@ -8,6 +8,11 @@ USR
 {% block page_content %}
 <h1>Hello, {% if name %}{{ name|capitalize }}{% else %}Stranger{% endif %}</h1>
 <a href="#"><img src="{{url_for('static', filename='img/img.png') }}" alt=""></a>
+{% if known %}
+<p>Nice to meet you again!</p>
+{% else %}
+<p>Nice to meet you!</p>
+{% endif %}
 
 {{ wtf.quick_form(form) }}
 {% endblock %}
